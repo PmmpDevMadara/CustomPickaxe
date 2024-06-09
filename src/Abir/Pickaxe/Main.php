@@ -153,10 +153,10 @@ class main extends PluginBase implements Listener {
        }
    });
         $form->setTitle("§l§6Custom Pickaxe");
-        $form->addButton("§r§l§bPICKAXE ROCK\n§9»» §r§6Tap To Get", 0, "textures/ui/pickaxe_rock");
-        $form->addButton("§r§l§bPICKAXE JOKER\n§9»» §r§6Tap To Get", 0, "textures/ui/pickaxe_joker");
-        $form->addButton("§r§l§bPICKAXE LEVIATHAN\n§9»» §r§6Tap To Get", 0, "textures/ui/pickaxe_leviathan");
-        $form->addButton("§r§lPICKAXE DRAGON\n§9»» §r§6Tap To Get", 0, "textures/ui/pickaxe_dragon");
+        $form->addButton("§r§l§bPICKAXE ROCK\n§9»» §r§6Tap To Get", 0, "textures/items/picks/pickaxe_rock");
+        $form->addButton("§r§l§bPICKAXE JOKER\n§9»» §r§6Tap To Get", 0, "textures/items/picks/pickaxe_joker");
+        $form->addButton("§r§l§bPICKAXE LEVIATHAN\n§9»» §r§6Tap To Get", 0, "textures/items/picks/pickaxe_leviathan");
+        $form->addButton("§r§lPICKAXE DRAGON\n§9»» §r§6Tap To Get", 0, "textures/items/picks/pickaxe_dragon");
              $form->sendToPlayer($player);
         return $form;
     }
