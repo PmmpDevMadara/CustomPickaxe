@@ -54,7 +54,7 @@ use Abir\Pickaxe\item\pickaxe_dragon;
 use Abir\Pickaxe\item\pickaxe_joker;
 use Abir\Pickaxe\item\pickaxe_rock;
 
-class main extends PluginBase implements Listener {
+class Main extends PluginBase implements Listener {
     const CUSTOM = "Powerfull";
     public const FAKE_ENCH_ID = -1;
      
